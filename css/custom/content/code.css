@@ -3,6 +3,11 @@
     border-radius: .5rem;
 }
 
+.highlighttable .linenos {
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
 /* 标题 */
 .highlight span.filename {
     border-top-left-radius: .5rem;
