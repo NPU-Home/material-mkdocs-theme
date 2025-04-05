@@ -8,12 +8,8 @@ main.w-full.mx-auto {
 }
 
 .gsc-comment-box-tabs {
-    align-items: center;
-    border-bottom-width: 1px;
     border-start-end-radius: 1rem;
     border-start-start-radius: 1rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 #__next .rounded-md {
@@ -25,12 +21,14 @@ button.rounded-t.border.border-b-0.px-4.py-2.color-text-primary.color-bg-canvas.
 }
 
 .gsc-comment-box-textarea {
-    border-radius: 1rem;
+    border-radius: .8rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .gsc-comment-box-textarea-extras {
-    border-end-end-radius: 1rem;
-    border-end-start-radius: 1rem;
+    border-end-end-radius: .8rem;
+    border-end-start-radius: .8rem;
 }
 
 /*! MIT License
