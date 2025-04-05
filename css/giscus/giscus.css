@@ -16,6 +16,23 @@ main.w-full.mx-auto {
     justify-content: space-between;
 }
 
+#__next .rounded-md {
+    border-radius: .6rem;
+}
+
+button.rounded-t.border.border-b-0.px-4.py-2.color-text-primary.color-bg-canvas.color-border-primary {
+    border-radius: .5rem .5rem 0rem 0rem !important;
+}
+
+.gsc-comment-box-textarea {
+    border-radius: 1rem;
+}
+
+.gsc-comment-box-textarea-extras {
+    border-end-end-radius: 1rem;
+    border-end-start-radius: 1rem;
+}
+
 /*! MIT License
  * Copyright (c) 2018 GitHub Inc.
  * https://github.com/primer/primitives/blob/main/LICENSE
